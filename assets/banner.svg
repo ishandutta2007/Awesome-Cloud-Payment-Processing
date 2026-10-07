@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#311042"/>
+    </linearGradient>
+    
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.12)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.03)"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <style>
+      @keyframes float1 {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-15px) rotate(2deg); }
+      }
+      @keyframes float2 {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(12px) rotate(-2deg); }
+      }
+      @keyframes pulseGrid {
+        0%, 100% { opacity: 0.15; }
+        50% { opacity: 0.35; }
+      }
+      @keyframes flowLine {
+        0% { stroke-dashoffset: 100; }
+        100% { stroke-dashoffset: 0; }
+      }
+      .bg-element { animation: float1 8s ease-in-out infinite; }
+      .bg-element-2 { animation: float2 10s ease-in-out infinite; }
+      .grid-pattern { animation: pulseGrid 6s ease-in-out infinite; }
+      .title-text { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; fill: #ffffff; }
+      .subtitle-text { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 500; fill: #cbd5e1; }
+      .badge-text { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; fill: #38bdf8; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bgGrad)"/>
+
+  <!-- Background Grid -->
+  <g class="grid-pattern" stroke="rgba(255,255,255,0.08)" stroke-width="1">
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40"/>
+    </pattern>
+    <rect width="1200" height="400" fill="url(#grid)"/>
+  </g>
+
+  <!-- Animated Background Orbs / Glows (behind text) -->
+  <circle cx="200" cy="100" r="180" fill="#4f46e5" opacity="0.25" filter="url(#glow)"/>
+  <circle cx="1000" cy="300" r="200" fill="#d946ef" opacity="0.2" filter="url(#glow)"/>
+
+  <!-- Decorative Floating Cards in Background (Right side) -->
+  <g class="bg-element-2" transform="translate(780, 80)">
+    <rect width="320" height="180" rx="16" fill="url(#cardGrad)" stroke="rgba(255,255,255,0.18)" stroke-width="1.5" backdrop-filter="blur(10px)"/>
+    <!-- Card Chip -->
+    <rect x="30" y="30" width="42" height="30" rx="6" fill="#f59e0b" opacity="0.8"/>
+    <!-- Card Lines -->
+    <rect x="30" y="95" width="180" height="12" rx="4" fill="rgba(255,255,255,0.4)"/>
+    <rect x="30" y="120" width="100" height="10" rx="4" fill="rgba(255,255,255,0.2)"/>
+    <circle cx="260" cy="130" r="18" fill="#ef4444" opacity="0.7"/>
+    <circle cx="280" cy="130" r="18" fill="#f59e0b" opacity="0.7"/>
+  </g>
+
+  <g class="bg-element" transform="translate(840, 190)">
+    <rect width="280" height="150" rx="16" fill="url(#cardGrad)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+    <path d="M 30 90 Q 80 40 130 70 T 230 30" fill="none" stroke="url(#accentGrad)" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="230" cy="30" r="6" fill="#ec4899"/>
+  </g>
+
+  <!-- Foreground Content (Text & Badges) -->
+  <g transform="translate(80, 0)">
+    <!-- Pill Badge -->
+    <g transform="translate(0, 75)">
+      <rect width="260" height="36" rx="18" fill="rgba(56, 189, 248, 0.1)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1"/>
+      <text x="20" y="23" class="badge-text" font-size="14">💳 CLOUD PAYMENT PROCESSING</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="175" class="title-text" font-size="46" letter-spacing="-0.5">
+      Awesome Cloud Payment Processing
+    </text>
+
+    <!-- Gradient Line Divider -->
+    <rect x="0" y="200" width="650" height="4" rx="2" fill="url(#accentGrad)"/>
+
+    <!-- Subtitle -->
+    <text x="0" y="245" class="subtitle-text" font-size="20">
+      Curated Cloud Payment Gateways, Open-Source Orchestration &amp; Billing Systems
+    </text>
+
+    <!-- Feature Tags -->
+    <g transform="translate(0, 280)">
+      <!-- Tag 1 -->
+      <g transform="translate(0,0)">
+        <rect width="170" height="32" rx="8" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.1)"/>
+        <text x="15" y="21" font-family="system-ui" font-size="13" fill="#e2e8f0">⚡ Payment Orchestration</text>
+      </g>
+      <!-- Tag 2 -->
+      <g transform="translate(182,0)">
+        <rect width="150" height="32" rx="8" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.1)"/>
+        <text x="15" y="21" font-family="system-ui" font-size="13" fill="#e2e8f0">🔒 Tokenization &amp; PCI</text>
+      </g>
+      <!-- Tag 3 -->
+      <g transform="translate(344,0)">
+        <rect width="160" height="32" rx="8" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.1)"/>
+        <text x="15" y="21" font-family="system-ui" font-size="13" fill="#e2e8f0">🔄 Subscription Billing</text>
+      </g>
+    </g>
+  </g>
+</svg>
