@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Payment-Processing"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Payment-Processing?style=social" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Payment-Processing"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Payment-Processing?style=social" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-Payment-Processing/fork"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Payment-Processing?style=social" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-Payment-Processing/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Cloud-Payment-Processing?color=blue" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -65,46 +65,46 @@ The table below lists leading commercial payment processing platforms sorted by 
 
 ## 🔓 Open-Source GitHub Projects 🌾
 
-*Sorted by GitHub Star Count (Descending)* 🌟
+*Sorted by GitHub Stars_Count (Descending)* 🌟
 
 - **[Hyperswitch](https://github.com/juspay/hyperswitch)** [![Stars](https://img.shields.io/github/stars/juspay/hyperswitch?style=social&color=white)](https://github.com/juspay/hyperswitch/stargazers)  
-  **Open-source high-performance payment orchestration platform**, Apache-2.0 licensed. **36,000+ GitHub stars** — the most popular open-source payment infrastructure project. **Built in Rust** for lightning-fast latency, handling 10,000+ TPS. Features 100+ payment processor connectors, unified PCI-compliant card vault, smart dynamic routing, and automated dispute reconciliation. Used by enterprise giants like Amazon, Agoda, and Zurich. ⚡
+  **Open-source high-performance payment orchestration platform**, Apache-2.0 licensed. **36,000+ GitHub_Stars** — the most popular open-source payment infrastructure project. **Built in Rust** for lightning-fast latency, handling 10,000+ TPS. Features 100+ payment processor connectors, unified PCI-compliant card vault, smart dynamic routing, and automated dispute reconciliation. Used by enterprise giants like Amazon, Agoda, and Zurich. ⚡
 
 - **[Lago](https://github.com/getlago/lago)** [![Stars](https://img.shields.io/github/stars/getlago/lago?style=social&color=white)](https://github.com/getlago/lago/stargazers)  
-  **Open-source metering and usage-based billing engine**, AGPL-3.0 licensed. **8,500+ GitHub stars**. The modern open-source alternative to Chargebee and Stripe Billing. Designed for complex usage-based pricing, hybrid billing models, tier metering, credits, and automated invoice generation. Built with Ruby on Rails & Go. 📊
+  **Open-source metering and usage-based billing engine**, AGPL-3.0 licensed. **8,500+ GitHub_Stars**. The modern open-source alternative to Chargebee and Stripe Billing. Designed for complex usage-based pricing, hybrid billing models, tier metering, credits, and automated invoice generation. Built with Ruby on Rails & Go. 📊
 
 - **[Crater](https://github.com/crater-invoice/crater)** [![Stars](https://img.shields.io/github/stars/crater-invoice/crater?style=social&color=white)](https://github.com/crater-invoice/crater/stargazers)  
-  **Open-source invoicing & payment tracking application**, AGPL-3.0 licensed. **7,400+ GitHub stars**. Built for freelancers and SMBs to track expenses, generate professional PDF invoices, and process payments via Stripe/PayPal. Mobile app available (Vue.js + Laravel + React Native). 📝
+  **Open-source invoicing & payment tracking application**, AGPL-3.0 licensed. **7,400+ GitHub_Stars**. Built for freelancers and SMBs to track expenses, generate professional PDF invoices, and process payments via Stripe/PayPal. Mobile app available (Vue.js + Laravel + React Native). 📝
 
 - **[BTCPay Server](https://github.com/btcpayserver/btcpayserver)** [![Stars](https://img.shields.io/github/stars/btcpayserver/btcpayserver?style=social&color=white)](https://github.com/btcpayserver/btcpayserver/stargazers)  
-  **Self-hosted, open-source cryptocurrency payment processor**, MIT licensed. **2,571+ GitHub stars** with **1M+ direct downloads**. Zero fees, no third-party intermediaries, and no KYC required. Full Bitcoin node integration with Lightning Network & Liquid Network support. Used by Namecheap (processing over $73M) and thousands of global merchants. 🟠
+  **Self-hosted, open-source cryptocurrency payment processor**, MIT licensed. **2,571+ GitHub_Stars** with **1M+ direct downloads**. Zero fees, no third-party intermediaries, and no KYC required. Full Bitcoin node integration with Lightning Network & Liquid Network support. Used by Namecheap (processing over $73M) and thousands of global merchants. 🟠
 
 - **[Kill Bill](https://github.com/killbill/killbill)** [![Stars](https://img.shields.io/github/stars/killbill/killbill?style=social&color=white)](https://github.com/killbill/killbill/stargazers)  
-  **Open-source enterprise subscription billing and payment platform**, Apache-2.0 licensed. **2,500+ GitHub stars**. Provides subscription lifecycle management, complex invoicing rules, multi-tier payment processor integration, and custom plugin SDKs. Java-based architecture with robust REST APIs. 💣
+  **Open-source enterprise subscription billing and payment platform**, Apache-2.0 licensed. **2,500+ GitHub_Stars**. Provides subscription lifecycle management, complex invoicing rules, multi-tier payment processor integration, and custom plugin SDKs. Java-based architecture with robust REST APIs. 💣
 
 - **[Open Source Point of Sale](https://github.com/opensourcepos/opensourcepos)** [![Stars](https://img.shields.io/github/stars/opensourcepos/opensourcepos?style=social&color=white)](https://github.com/opensourcepos/opensourcepos/stargazers)  
-  **Web-based point of sale & inventory management system**, MIT licensed. **2,100+ GitHub stars**. Feature-rich retail payment terminal featuring stock management, VAT/GST tax calculation, receipt printing, customer gift cards, and barcode scanning (PHP/CodeIgniter + MySQL). 🧾
+  **Web-based point of sale & inventory management system**, MIT licensed. **2,100+ GitHub_Stars**. Feature-rich retail payment terminal featuring stock management, VAT/GST tax calculation, receipt printing, customer gift cards, and barcode scanning (PHP/CodeIgniter + MySQL). 🧾
 
 - **[ServiceBot](https://github.com/service-bot/servicebot)** [![Stars](https://img.shields.io/github/stars/service-bot/servicebot?style=social&color=white)](https://github.com/service-bot/servicebot/stargazers)  
-  **Open-source Stripe subscription management UI & billing portal**, GPL-3.0 licensed. **956 GitHub stars**. Embeddable customer billing portal, subscription management widgets, and automated invoice management built for SaaS applications. 🔄
+  **Open-source Stripe subscription management UI & billing portal**, GPL-3.0 licensed. **956 GitHub_Stars**. Embeddable customer billing portal, subscription management widgets, and automated invoice management built for SaaS applications. 🔄
 
 - **[Paymenter](https://github.com/Paymenter/Paymenter)** [![Stars](https://img.shields.io/github/stars/Paymenter/Paymenter?style=social&color=white)](https://github.com/Paymenter/Paymenter/stargazers)  
-  **Open-source billing and management platform for hosting providers**, MIT licensed. **528 GitHub stars**. Modern WHMCS alternative built with Laravel & TailwindCSS. Automates server provisioning, domain management, subscription billing, and multi-gateway payment collection. 🏠
+  **Open-source billing and management platform for hosting providers**, MIT licensed. **528 GitHub_Stars**. Modern WHMCS alternative built with Laravel & TailwindCSS. Automates server provisioning, domain management, subscription billing, and multi-gateway payment collection. 🏠
 
 - **[billable](https://github.com/bubinez/billable)** [![Stars](https://img.shields.io/github/stars/bubinez/billable?style=social&color=white)](https://github.com/bubinez/billable/stargazers)  
-  **Universal Python billing engine for Django & Ninja**, MIT licensed. **180+ GitHub stars**. Decoupled entitlement, quota management, and payment accounting with double-entry transaction ledgers and trial fraud protection. 🐍
+  **Universal Python billing engine for Django & Ninja**, MIT licensed. **180+ GitHub_Stars**. Decoupled entitlement, quota management, and payment accounting with double-entry transaction ledgers and trial fraud protection. 🐍
 
 - **[PayKit](https://github.com/sirfusebox/paykit)** [![Stars](https://img.shields.io/github/stars/sirfusebox/paykit?style=social&color=white)](https://github.com/sirfusebox/paykit/stargazers)  
-  **Embedded TypeScript billing framework**, MIT licensed. **140+ GitHub stars**. Define billing plans directly in code, handle webhooks automatically, and gate features inside your Next.js/Node.js application without touching vendor dashboards. 📦
+  **Embedded TypeScript billing framework**, MIT licensed. **140+ GitHub_Stars**. Define billing plans directly in code, handle webhooks automatically, and gate features inside your Next.js/Node.js application without touching vendor dashboards. 📦
 
 - **[Medusa POS Starter](https://github.com/medusajs/medusa-pos-starter)** [![Stars](https://img.shields.io/github/stars/medusajs/medusa-pos-starter?style=social&color=white)](https://github.com/medusajs/medusa-pos-starter/stargazers)  
-  **Open-source mobile POS for Medusa headless commerce**, MIT licensed. **110+ GitHub stars**. Mobile checkout terminal supporting barcode scanning, card payments, and live inventory synchronization built with React Native + Expo. 🛒
+  **Open-source mobile POS for Medusa headless commerce**, MIT licensed. **110+ GitHub_Stars**. Mobile checkout terminal supporting barcode scanning, card payments, and live inventory synchronization built with React Native + Expo. 🛒
 
 - **[Ready POS for WooCommerce](https://github.com/Johuniq/ready-pos)** [![Stars](https://img.shields.io/github/stars/Johuniq/ready-pos?style=social&color=white)](https://github.com/Johuniq/ready-pos/stargazers)  
-  **Point-of-sale plugin for WordPress & WooCommerce**, GPL-2.0 licensed. **85+ GitHub stars**. Fullscreen cashier terminal with instant local cart sync, barcode scanning, thermal receipt printing, and local store register management. 🏪
+  **Point-of-sale plugin for WordPress & WooCommerce**, GPL-2.0 licensed. **85+ GitHub_Stars**. Fullscreen cashier terminal with instant local cart sync, barcode scanning, thermal receipt printing, and local store register management. 🏪
 
 - **[TPT Payments](https://github.com/tpt-solutions/tpt-payments)** [![Stars](https://img.shields.io/github/stars/tpt-solutions/tpt-payments?style=social&color=white)](https://github.com/tpt-solutions/tpt-payments/stargazers)  
-  **Open-source Stripe alternative with sovereign credit blockchain engine**, MIT licensed. **45+ GitHub stars**. High-throughput Go payment server with double-entry PostgreSQL ledger, Vault card tokenization, and Cosmos SDK blockchain layer. 🪙
+  **Open-source Stripe alternative with sovereign credit blockchain engine**, MIT licensed. **45+ GitHub_Stars**. High-throughput Go payment server with double-entry PostgreSQL ledger, Vault card tokenization, and Cosmos SDK blockchain layer. 🪙
 
 ---
 
@@ -140,7 +140,7 @@ Thank you for supporting open-source software and fintech documentation! ❤️
 ## ⚠️ Disclaimer ℹ️
 
 - This is a **community-curated** directory — not an exhaustive list and not a financial endorsement. 💳
-- **Hyperswitch is the dominant open-source payment orchestration platform** — 36,000+ GitHub stars, handling high TPS with 100+ processor connectors. Note that self-hosting requires PCI compliance responsibility unless using outsourced PCI vaults or Juspay managed cloud services. 🛡️
+- **Hyperswitch is the dominant open-source payment orchestration platform** — 36,000+ GitHub_Stars, handling high TPS with 100+ processor connectors. Note that self-hosting requires PCI compliance responsibility unless using outsourced PCI vaults or Juspay managed cloud services. 🛡️
 - **BTCPay Server eliminates payment fees entirely** but requires maintaining a Bitcoin full node and Lightning network infrastructure. 🟠
 - **Always test payment integration code in sandbox modes** before processing live financial transactions in production environments. ⚡
 
@@ -149,3 +149,12 @@ Thank you for supporting open-source software and fintech documentation! ❤️
 <p align="center">
   <b>Made with ❤️ for payment engineers, fintech developers, and open-source payment advocates.</b>
 </p>
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Cloud-Payment-Processing&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Cloud-Payment-Processing_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Cloud-Payment-Processing_growth.svg">
+  </picture>
+</a>
